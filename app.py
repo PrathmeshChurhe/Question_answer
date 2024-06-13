@@ -61,4 +61,4 @@ if "generated_question" in st.session_state:
             st.write("Validation Result: ",validation_result)
             st.write("Model Answer: ",model)
         else:
-            st.warning("Please provide an answer.")
+            st.warning("Error.")
